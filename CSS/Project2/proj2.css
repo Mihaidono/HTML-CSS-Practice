@@ -1,0 +1,62 @@
+body{
+    background-color:#3333ff;
+    color:whitesmoke;
+}
+
+a{
+    color:wheat;
+    text-decoration: none;
+}
+
+header{
+    background-image:url("shroudimg2.png");
+    background-color:#3333ff;
+    text-align:center;
+    padding:5px;
+    height:450px;
+}
+
+.logo{
+    padding:5px;
+    width:120px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header.top-liner{
+    font-size:15px;
+}
+
+header a.main-button{
+    margin-top:80px;
+    padding:15px;
+    border-radius: 0.25rem;
+    background-color:#3333ff;
+    color:white;
+    display:inline-block;
+}
+
+header p.footer-text{
+    display:block;
+    padding-top:150px;
+}
+
+.testimonials{
+    text-align:center;
+}
+
+.reviews{
+    display:inline-block;
+    width:350px;
+    height:250px;
+}
+
+footer{
+    background-color:#3333ff;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:15px;
+    border-top:2px solid white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML5,CSS3">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" media="screen" href="proj3.css">
+        <title>Survey site</title>
+    </head>
+    <body>
+        <header>SURVEY.COM</header>
+        <section>
+            <h1>Submit your Survey Today!</h1>
+            <form method="POST" action="formprog.html">
+                    <label for="username">Your Name</label>
+                    <input id="username" type="text" name="UserName" placeholder="Name Surname">
+                    <label for="useremail">Your Email</label>
+                    <input id="useremail" type="text" name="UserEmail" placeholder="ex:youremail@yahoo.com">
+                <p class="formtext">
+                    <label for="select">Select:</label>
+                    <select id="select">
+                        <optgroup label="Option group 1">
+                            <option>Option 1 One</option>
+                            <option>Option 1 Two</option>
+                        </optgroup>
+                        <optgroup label="Option group 2">
+                            <option>Option 2 One</option>
+                            <option>Option 2 Two</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p class="formtext">
+                    <label for="checkbox_op1">Checkbox 1:</label>
+                    <input id="checkbox_op1" type="checkbox" name="checkbox1" checked>
+                    <label for="checkbox_op2">Checkbox 2:</label>
+                    <input id="checkbox_op2" type="checkbox" name="checkbox2">
+                    <label for="checkbox_op3">Checkbox 3:</label>
+                    <input id="checkbox_op3" type="checkbox" name="checkbox3">
+                </p>
+                <input type="Submit"> &nbsp; &nbsp; <input type="reset">
+            </form>
+        </section>
+        <footer>Copyright &copy; <a href="#">YourSite.com</a></footer>
+    </body>
+</html>

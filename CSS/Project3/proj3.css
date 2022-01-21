@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    background-color:#666699;
+    text-align:center;
+    padding:35px;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+
+footer{
+    background-color:#666699;
+    text-align:center;
+    padding:15px 0;
+    clear:both;
+    color:white;
+    margin-top:15px;
+}
+
+footer a{
+    color:greenyellow;
+}
+
+form input[type="text"]{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+}
+
+form{
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+}
+
+.formtext{
+    padding-top:10px;
+    padding-bottom:10px;
+}
